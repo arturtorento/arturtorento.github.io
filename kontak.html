@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website portofolio dan blog teknologi Fathur Ramadhan.">
+  <title>Kontak | Fathur Ramadhan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="isi header-inner">
+      <a class="brand" href="index.html">Fathur Ramadhan<span>.</span></a>
+      <nav aria-label="Navigasi utama">
+        <a href="index.html" >Beranda</a>
+        <a href="tentang.html" >Tentang</a>
+        <a href="portofolio.html" >Portofolio</a>
+        <a href="blog.html" >Blog</a>
+        <a href="kontak.html" class="aktif">Kontak</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">🌙</span>
+        <span class="theme-label">Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p class="eyebrow">KONTAK</p>
+      <h1>Hubungi Saya</h1>
+      <p>Email: faturrmdhn11@gmail.com | Telepon: 085900093075</p>
+      <form action="#" method="post">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" required minlength="3">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telp">Nomor Telepon</label>
+        <input type="tel" id="telp" name="telp" pattern="[0-9]{10,13}" title="Masukkan 10-13 digit angka">
+        <label for="subjek">Subjek</label>
+        <select id="subjek" name="subjek" required>
+          <option value="">-- Pilih subjek --</option>
+          <option>Kerja sama</option><option>Pertanyaan</option><option>Lainnya</option>
+        </select>
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="5" required></textarea>
+        <label class="checkbox-label"><input type="checkbox" name="setuju" required> Saya menyetujui data saya digunakan untuk membalas pesan ini.</label>
+        <button type="submit" class="tombol">Kirim Pesan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Fathur Ramadhan. Dibuat dengan kesadaran dirisendiri.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website portofolio dan blog teknologi Fathur Ramadhan.">
+  <title>Blog | Fathur Ramadhan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="isi header-inner">
+      <a class="brand" href="index.html">Fathur Ramadhan<span>.</span></a>
+      <nav aria-label="Navigasi utama">
+        <a href="index.html" >Beranda</a>
+        <a href="tentang.html" >Tentang</a>
+        <a href="portofolio.html" >Portofolio</a>
+        <a href="blog.html" class="aktif">Blog</a>
+        <a href="kontak.html" >Kontak</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">🌙</span>
+        <span class="theme-label">Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-intro">
+      <p class="eyebrow">BERBAGI PENGETAHUAN</p>
+      <h1>Blog Teknologi</h1>
+      <p>Artikel singkat tentang dasar-dasar pengembangan web dan teknologi.</p>
+    </section>
+    <section class="blog-list">
+      <article class="blog-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85" alt="Laptop menampilkan kode program" loading="lazy">
+        <div class="blog-content">
+          <p class="article-meta">HTML5 · 5 November 2026</p>
+          <h2>Mengenal HTML5 dan Elemen Semantik</h2>
+          <p>HTML5 menyediakan elemen semantik seperti header, nav, main, section, article, dan footer. Elemen tersebut membantu menyusun struktur halaman agar lebih jelas dan mudah dipahami.</p>
+          <a class="text-link" href="#artikel-html">Baca ringkasan</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?auto=format&fit=crop&w=1000&q=85" alt="Kode CSS pada layar komputer" loading="lazy">
+        <div class="blog-content">
+          <p class="article-meta">CSS3 · 6 November 2026</p>
+          <h2>Dasar CSS untuk Tampilan Website</h2>
+          <p>CSS digunakan untuk mengatur warna, jarak, ukuran teks, dan tata letak. Flexbox dan Grid memudahkan pembuatan layout yang rapi, sedangkan media query membantu menyesuaikan tampilan pada perangkat berbeda.</p>
+          <a class="text-link" href="#artikel-css">Baca ringkasan</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=85" alt="Editor kode JavaScript" loading="lazy">
+        <div class="blog-content">
+          <p class="article-meta">JavaScript · 7 November 2026</p>
+          <h2>Peran JavaScript dalam Website Interaktif</h2>
+          <p>JavaScript membuat halaman web dapat merespons tindakan pengguna. Contohnya adalah tombol dark mode, validasi formulir, menu interaktif, dan perubahan konten tanpa harus memuat ulang seluruh halaman.</p>
+          <a class="text-link" href="#artikel-js">Baca ringkasan</a>
+        </div>
+      </article>
+    </section>
+    <section class="article-details">
+      <article id="artikel-html"><h2>1. HTML5 dan Semantik</h2><p>Gunakan elemen sesuai fungsinya. Misalnya, letakkan navigasi di dalam <code>&lt;nav&gt;</code> dan konten utama di dalam <code>&lt;main&gt;</code>. Struktur yang teratur membuat kode lebih mudah dirawat.</p></article>
+      <article id="artikel-css"><h2>2. CSS dan Responsivitas</h2><p>Mulailah dari layout sederhana, gunakan satuan fleksibel, lalu tambahkan breakpoint dengan <code>@media</code>. Uji halaman pada lebar layar ponsel dan desktop.</p></article>
+      <article id="artikel-js"><h2>3. JavaScript Interaktif</h2><p>Pilih elemen menggunakan DOM, pasang event listener, lalu ubah class atau atribut sesuai tindakan pengguna. Pisahkan JavaScript ke file eksternal agar project terstruktur.</p></article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Fathur Ramadhan. Dibuat dengan kesadaran dirisendiri.</p>
+  </footer>
+</body>
+</html>

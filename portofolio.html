@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website portofolio dan blog teknologi Fathur Ramadhan.">
+  <title>Portofolio | Fathur Ramadhan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="isi header-inner">
+      <a class="brand" href="index.html">Fathur Ramadhan<span>.</span></a>
+      <nav aria-label="Navigasi utama">
+        <a href="index.html" >Beranda</a>
+        <a href="tentang.html" >Tentang</a>
+        <a href="portofolio.html" class="aktif">Portofolio</a>
+        <a href="blog.html" >Blog</a>
+        <a href="kontak.html" >Kontak</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">🌙</span>
+        <span class="theme-label">Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p class="eyebrow">KARYA DAN LATIHAN</p>
+      <h1>Portofolio</h1>
+      <p>Beberapa contoh proyek dan latihan pengembangan web.</p>
+      <div class="kartu-wadah project-grid">
+        <article class="kartu">
+          <img src="toko.jpg" alt="Ilustrasi website toko online" loading="lazy">
+          <div class="teks"><h2>Website Toko Online</h2><p>Halaman katalog produk dengan tampilan responsif menggunakan HTML dan CSS.</p></div>
+        </article>
+        <article class="kartu">
+          <img src="blog.jpg" alt="Ilustrasi blog pada laptop" loading="lazy">
+          <div class="teks"><h2>Blog Pribadi</h2><p>Blog sederhana dengan layout semantik dan navigasi antarhalaman.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <p class="eyebrow">GALERI</p>
+        <h2>Galeri Foto</h2>
+        <p>Arahkan kursor ke foto untuk melihat efek hover.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85" alt="Suasana bekerja dan belajar menggunakan laptop" loading="lazy">
+          <figcaption>Belajar dan Berkarya</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=85" alt="Tim berdiskusi tentang teknologi" loading="lazy">
+          <figcaption>Kolaborasi Teknologi</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85" alt="Meja kerja dengan komputer dan kode program" loading="lazy">
+          <figcaption>Pengembangan Web</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ringkasan Proyek</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>No</th><th>Proyek</th><th>Teknologi</th><th>Tahun</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Website Toko Online</td><td>HTML, CSS</td><td>2025</td></tr>
+            <tr><td>2</td><td>Blog Pribadi</td><td>HTML, CSS</td><td>2025</td></tr>
+            <tr><td>3</td><td>Form Pendaftaran</td><td>HTML5</td><td>2026</td></tr>
+            <tr><td>3</td><td>CRUD</td><td>Laravel 8</td><td>2023</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Fathur Ramadhan. Dibuat dengan kesadaran dirisendiri.</p>
+  </footer>
+</body>
+</html>
